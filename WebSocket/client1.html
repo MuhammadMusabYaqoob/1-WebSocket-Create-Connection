@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Socket.IO Client</title>
+</head>
+
+<body>
+
+    <h1>Socket.IO Client</h1>
+    <button onclick="upgradeToSocketConnection()">Update to WebSocket Connection</button>
+
+    <!-- loading the socket into client -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        // connection the client to server socket
+        function upgradeToSocketConnection(){
+            const socket = io();
+        }
+    </script>
+
+</body>
+
+</html>
