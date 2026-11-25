@@ -222,7 +222,7 @@ app.use(express.static(path.resolve("./WebSocket")));
 // When the browser visits http://localhost:3000/,
 // send client1.html as the HTTP response.
 app.get("/", (req, res) => {
-    return res.sendFile(path.resolve("./WebSocket/client1.html"));
+    return res.sendFile(path.resolve("client1.html"));
 });
 
 // Step 3: Listen for Socket.IO client connections.
