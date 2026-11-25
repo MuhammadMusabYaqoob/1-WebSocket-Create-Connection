@@ -416,7 +416,7 @@ This practice is only about understanding and establishing the connection.
 
 In the next practice, I will learn how to send messages from the client to the server and from the server to the client using Socket.IO events such as `emit()` and `on()`.
 
-**Next Repository:** [Sending and Receiving Messages with Socket.IO]((https://github.com/MuhammadMusabYaqoob/2-WebSocket-Send-Messages-Single-User-/blob/main/README.md))
+**Next Repository:** [Sending and Receiving Messages with Socket.IO](https://github.com/MuhammadMusabYaqoob/2-WebSocket-Send-Messages-Single-User-/blob/main/README.md)
 
 Topics to explore:
 
