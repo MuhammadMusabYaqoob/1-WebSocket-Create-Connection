@@ -135,7 +135,7 @@ At this point, Socket.IO is attached to the HTTP server. The browser has not con
 ### Step 5: Serve Static Files from the WebSocket Folder
 
 ```js
-app.use(express.static(path.resolve("client1.html")));
+app.use(express.static(path.resolve("./WebSocket")));
 ```
 
 **Explanation:**
@@ -151,7 +151,7 @@ For example, a request for `/client1.html` can be served from `WebSocket/client1
 
 ```js
 app.get("/", (req, res) => {
-    return res.sendFile(path.resolve("./WebSocket/client1.html"));
+    return res.sendFile(path.resolve("client1.html"));
 });
 ```
 
