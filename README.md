@@ -53,13 +53,10 @@ The existing project structure is kept. No `public` folder is created.
 Real-Time-Communication/
 │
 ├── node_modules/
-├── WebSocket/
-│   ├── client1.html
-│   └── webSocket.js
-│
-├── longPolling.js
-├── package.json
-└── package-lock.json
+└── WebSocket/
+    ├── client1.html
+    └── webSocket.js
+
 ```
 
 - `WebSocket/webSocket.js` contains the Express application, HTTP server and Socket.IO server.
@@ -138,7 +135,7 @@ At this point, Socket.IO is attached to the HTTP server. The browser has not con
 ### Step 5: Serve Static Files from the WebSocket Folder
 
 ```js
-app.use(express.static(path.resolve("./WebSocket")));
+app.use(express.static(path.resolve("client1.html")));
 ```
 
 **Explanation:**
